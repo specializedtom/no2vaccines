@@ -312,6 +312,8 @@ function entity_delete($entity_type, $id) {
   return entity_delete_multiple($entity_type, array($id));
 }
 
+
+
 /**
  * Permanently delete multiple entities.
  *
